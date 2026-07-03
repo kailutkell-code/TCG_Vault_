@@ -1,0 +1,14 @@
+Diese Dateien müssen auf GitHub im Hauptordner sichtbar sein:
+
+.github/workflows/build-apk.yml
+app/build.gradle
+app/src/main/AndroidManifest.xml
+app/src/main/java/de/kvaulthq/tcgkit/MainActivity.java
+app/src/main/res/values/strings.xml
+app/src/main/res/values/styles.xml
+build.gradle
+gradle.properties
+settings.gradle
+README.md
+
+Wenn in settings.gradle oder build.gradle XML oder Java-Code steht, ist etwas falsch hochgeladen worden.
